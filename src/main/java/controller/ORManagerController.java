@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ORManagerController {
 	
-    @RequestMapping(value = "/test")
+    @RequestMapping(value = "/")
     @ResponseBody
     public String index() {
         return "Greetings from Spring Boot!";

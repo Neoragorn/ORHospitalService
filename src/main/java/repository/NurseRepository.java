@@ -7,5 +7,4 @@ import models.Nurse;
 public interface NurseRepository extends CrudRepository<Nurse, Long> {
 	 
 	Nurse findById(int id);
-	
 }
