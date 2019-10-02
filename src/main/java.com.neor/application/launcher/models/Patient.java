@@ -1,4 +1,4 @@
-package models;
+package application.launcher.models;
 
 import java.io.Serializable;
 
